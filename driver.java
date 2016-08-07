@@ -1,7 +1,15 @@
-class Test
+class Driver
 {
 	public static void main(String[] args)
 	{
-		System.out.print("chicken");
+
+		String name = "Jack";
+		
+		System.out.println( name );
+		
+		name += " Ben";
+		
+		System.out.println( name );
+		
 	}
 }
