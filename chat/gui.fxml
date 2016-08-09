@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Stuff :3">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="EXP töten" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <HBox spacing="10.0">
+               <children>
+                  <TextField />
+                  <TextField layoutX="10.0" layoutY="10.0" />
+                  <Region HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Region>
+                  <Button mnemonicParsing="false" text="Log In" />
+                  <Button layoutX="308.0" layoutY="10.0" mnemonicParsing="false" text="Settings" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <TextArea prefHeight="200.0" prefWidth="200.0" text="Hello World&#10;" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Message:" />
+            <Region HBox.hgrow="ALWAYS" />
+            <TextField prefHeight="25.0" prefWidth="541.0" HBox.hgrow="ALWAYS" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <left>
+      <ListView BorderPane.alignment="CENTER">
+         <effect>
+            <Blend />
+         </effect>
+      </ListView>
+   </left>
+</BorderPane>
