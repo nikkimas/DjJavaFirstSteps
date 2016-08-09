@@ -33,13 +33,3 @@ class SparbuchNutzen1 {
 		System.out.printf("mit Zinseszins\t: %,.2f EUR\n", meinSparbuch.ertragZ(5));
 	}
 }
-
-
-
-
-
-
-
-
-
-
