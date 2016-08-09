@@ -39,6 +39,9 @@ public class MitarbeiterBeispiel {
 		billy.datenAusgeben();
 		stevie.datenAusgeben();
 		
+		//My own test
+		System.out.print(billy.m_gehalt); //Note: Kann direkt auf Klassen-Golbale Var. zugreifen mit klasse.varName
+		
 	}
 }
 
