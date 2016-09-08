@@ -40,7 +40,7 @@ public class MitarbeiterBeispiel {
 		stevie.datenAusgeben();
 		
 		//My own test
-		System.out.print(billy.m_gehalt); //Note: Kann direkt auf Klassen-Golbale Var. zugreifen mit klasse.varName
+		System.out.print(billy.m_gehalt); //Note: Kann direkt auf Klassen-Globale Var. zugreifen mit klasse.varName
 		
 	}
 }
